@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 2;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+header nav ul li a:hover {
+    background: #d3d0d0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    max-width: 60%;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    color: #4b2c7f;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 25px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn.contact {
+    background: #4b2c7f;
+    color: #fff;
+}
+
+.btn.contact:hover {
+    background: #3a215b;
+}
+
+.btn.linkedln {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn.linkedln:hover {
+    background: #ececec;
+}
+
+.image img {
+    width: 400px;
+    max-width: 400%;
+}
+.whatIDo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 50px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.illustration img {
+    width: 400px;
+    height: 400px;
+}
+  
+.content {
+    max-width: 60%;
+}
+  
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 20px;
+}
+  
+.tech-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+ul li {
+    margin-bottom: 10px;
+}
+
+.proficiency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.skillBar{
+    max-width: 60%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.proficiency-bar {
+    margin: 20px 0;
+}
+
+.proficiency-bar label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.bar {
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #8c82ff;
+    transition: width 0.4s ease;
+}
+
+.skillLevel img {
+    height: 400px;
+    width: 400px;
+}
