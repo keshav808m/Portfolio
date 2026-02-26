@@ -5,7 +5,7 @@ This portfolio showcases my projects, technical skills, internship experience, a
 
 ---
 
-## 🚀 Live Preview
+## 🚀 Live Preview: https://portfolio-4s74.vercel.app
 
 
 
