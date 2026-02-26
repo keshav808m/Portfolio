@@ -1,16 +1,115 @@
-# React + Vite
+# 💼 Keshav Gorai – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Portfolio** built using **React.js**.
+This portfolio showcases my projects, technical skills, internship experience, and contact information in a clean and professional UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* CSS3 (Custom Styling + Glass UI Effects)
+* React Icons
+
+### Concepts Used
+
+* Component-based architecture
+* Responsive design (Media Queries)
+* CSS Grid & Flexbox
+* Smooth scrolling navigation
+
+---
+
+## 📌 Features
+
+✅ Sticky responsive Navbar
+✅ Hero section with profile photo
+✅ Modern glassmorphism card design
+✅ Skills section with technology icons
+✅ Projects displayed in structured card layout
+✅ Internship experience section
+✅ Contact section with social links
+✅ Fully responsive (Mobile + Tablet + Desktop)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ┣ components/
+ ┃ ┣ Navbar.jsx
+ ┃ ┣ Header.jsx
+ ┃ ┣ About.jsx
+ ┃ ┣ Skills.jsx
+ ┃ ┣ Education.jsx
+ ┃ ┣ Experience.jsx
+ ┃ ┣ Projects.jsx
+ ┃ ┣ Contact.jsx
+ ┃ ┗ Footer.jsx
+ ┣ assets/
+ ┃ ┗ profile.jpg
+ ┣ App.jsx
+ ┣ App.css
+ ┗ main.jsx / index.js
+```
+
+---
+
+## 📸 Major Projects Showcased
+
+### 🏨 Hotel Booking Platform (MERN Stack)
+
+* Full-stack booking system
+* Authentication & Authorization
+* REST APIs
+* MongoDB integration
+* Responsive UI
+
+### 🎥 Video Conferencing & Messaging Platform
+
+* Real-time video communication using WebRTC
+* Chat system using WebSockets
+* Secure authentication system
+* Room creation & joining feature
+* Database integration
+
+### 🌦 Weather App
+
+* Built using React + REST API
+* City-based search
+* Live weather data display
+* Error handling & loading states
+
+---
+
+## 🎓 Internship Experience
+
+### Intern – NPTEL (IIT Ropar)
+
+Worked on full-stack web development using MERN stack, built REST APIs, and integrated databases.
+
+### Intern – CodSoft
+
+Developed responsive frontend projects using HTML, CSS, and JavaScript.
+
+---
+
+## ⭐ If You Like This Project
+
+Give it a ⭐ on GitHub and feel free to fork it!
+
+---
+
+### 👨‍💻 Author
+
+**Keshav Gorai**
+Full Stack Developer | MERN Stack Enthusiast
